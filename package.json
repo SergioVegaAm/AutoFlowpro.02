@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@radix-ui/react-toast": "^1.2.10",
     "@radix-ui/react-tooltip": "^1.2.3",
     "@types/node": "^20.0.0",
     "@types/react": "^18.2.0",
