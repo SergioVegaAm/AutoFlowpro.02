@@ -1,36 +1,100 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AutoFlowPro
 
-## Getting Started
+Automatización visual de flujos de trabajo con Next.js 14, Tailwind CSS y TypeScript.
 
-First, run the development server:
+## 🚀 Características
+
+- ⚡ Next.js 14 con App Router
+- 🎨 Tailwind CSS para estilos
+- 🌙 Modo oscuro/claro con next-themes
+- 🔔 Notificaciones modernas con Sonner
+- 💡 Tooltips con Radix UI
+- 📱 Diseño responsive
+- ✨ Interfaz moderna y minimalista
+
+## 📦 Instalación
+
+### Desarrollo Local
 
 ```bash
+# Clonar el repositorio
+git clone https://github.com/SergioVegaAm/AutoFlowpro.02.git
+
+# Navegar al directorio
+cd AutoFlowpro.02
+
+# Instalar dependencias
+npm install
+
+# Iniciar servidor de desarrollo
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Despliegue en Replit
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Ve a [Replit](https://replit.com)
+2. Crea un nuevo repl
+3. Selecciona "Import from GitHub"
+4. Pega la URL: `https://github.com/SergioVegaAm/AutoFlowpro.02.git`
+5. Haz clic en "Import from GitHub"
+6. Una vez importado, en la consola ejecuta:
+   ```bash
+   npm install
+   npm run dev
+   ```
+7. Haz clic en el botón "Run" ▶️
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Actualizar en Replit
 
-## Learn More
+Para obtener la última versión del código:
 
-To learn more about Next.js, take a look at the following resources:
+1. Abre la consola en Replit
+2. Ejecuta:
+   ```bash
+   git pull origin main
+   npm install
+   npm run dev
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠️ Tecnologías
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- [Next.js 14](https://nextjs.org/)
+- [React 18](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Sonner](https://sonner.emilkowal.ski/)
+- [Radix UI](https://www.radix-ui.com/)
+- [next-themes](https://github.com/pacocoursey/next-themes)
 
-## Deploy on Vercel
+## 📁 Estructura del Proyecto
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```
+src/
+├── app/                   # App Router de Next.js
+│   ├── layout.tsx        # Layout principal
+│   └── page.tsx          # Página principal
+├── components/           # Componentes React
+│   ├── theme-provider.tsx # Proveedor de temas
+│   └── ui/              # Componentes de UI
+│       ├── tooltip.tsx   # Componente Tooltip
+│       └── toaster.tsx   # Componente Toaster
+└── lib/                 # Utilidades y helpers
+    └── utils.ts         # Funciones de utilidad
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🤝 Contribuir
+
+1. Haz fork del proyecto
+2. Crea una rama para tu feature (`git checkout -b feature/AmazingFeature`)
+3. Haz commit de tus cambios (`git commit -m 'Add some AmazingFeature'`)
+4. Haz push a la rama (`git push origin feature/AmazingFeature`)
+5. Abre un Pull Request
+
+## 📝 Licencia
+
+Distribuido bajo la licencia MIT. Ver `LICENSE` para más información.
+
+## 👤 Autor
+
+Sergio Vega
+- GitHub: [@SergioVegaAm](https://github.com/SergioVegaAm)
